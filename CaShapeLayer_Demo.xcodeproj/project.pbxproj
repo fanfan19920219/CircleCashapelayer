@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFDB87B91BFC3F84007CBA92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB87B81BFC3F84007CBA92 /* main.m */; };
+		EFDB87BC1BFC3F84007CBA92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB87BB1BFC3F84007CBA92 /* AppDelegate.m */; };
+		EFDB87BF1BFC3F84007CBA92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB87BE1BFC3F84007CBA92 /* ViewController.m */; };
+		EFDB87C21BFC3F84007CBA92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDB87C01BFC3F84007CBA92 /* Main.storyboard */; };
+		EFDB87C41BFC3F84007CBA92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDB87C31BFC3F84007CBA92 /* Assets.xcassets */; };
+		EFDB87C71BFC3F84007CBA92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDB87C51BFC3F84007CBA92 /* LaunchScreen.storyboard */; };
+		EFDB87D21BFC3F84007CBA92 /* CaShapeLayer_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB87D11BFC3F84007CBA92 /* CaShapeLayer_DemoTests.m */; };
+		EFDB87DD1BFC3F84007CBA92 /* CaShapeLayer_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB87DC1BFC3F84007CBA92 /* CaShapeLayer_DemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFDB87CE1BFC3F84007CBA92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDB87AC1BFC3F84007CBA92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDB87B31BFC3F84007CBA92;
+			remoteInfo = CaShapeLayer_Demo;
+		};
+		EFDB87D91BFC3F84007CBA92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDB87AC1BFC3F84007CBA92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDB87B31BFC3F84007CBA92;
+			remoteInfo = CaShapeLayer_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFDB87B41BFC3F84007CBA92 /* CaShapeLayer_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaShapeLayer_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDB87B81BFC3F84007CBA92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFDB87BA1BFC3F84007CBA92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFDB87BB1BFC3F84007CBA92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFDB87BD1BFC3F84007CBA92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFDB87BE1BFC3F84007CBA92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFDB87C11BFC3F84007CBA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFDB87C31BFC3F84007CBA92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFDB87C61BFC3F84007CBA92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFDB87C81BFC3F84007CBA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDB87CD1BFC3F84007CBA92 /* CaShapeLayer_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaShapeLayer_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDB87D11BFC3F84007CBA92 /* CaShapeLayer_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaShapeLayer_DemoTests.m; sourceTree = "<group>"; };
+		EFDB87D31BFC3F84007CBA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDB87D81BFC3F84007CBA92 /* CaShapeLayer_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaShapeLayer_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDB87DC1BFC3F84007CBA92 /* CaShapeLayer_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaShapeLayer_DemoUITests.m; sourceTree = "<group>"; };
+		EFDB87DE1BFC3F84007CBA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDB87B11BFC3F84007CBA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDB87CA1BFC3F84007CBA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDB87D51BFC3F84007CBA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDB87AB1BFC3F84007CBA92 = {
+			isa = PBXGroup;
+			children = (
+				EFDB87B61BFC3F84007CBA92 /* CaShapeLayer_Demo */,
+				EFDB87D01BFC3F84007CBA92 /* CaShapeLayer_DemoTests */,
+				EFDB87DB1BFC3F84007CBA92 /* CaShapeLayer_DemoUITests */,
+				EFDB87B51BFC3F84007CBA92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDB87B51BFC3F84007CBA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB87B41BFC3F84007CBA92 /* CaShapeLayer_Demo.app */,
+				EFDB87CD1BFC3F84007CBA92 /* CaShapeLayer_DemoTests.xctest */,
+				EFDB87D81BFC3F84007CBA92 /* CaShapeLayer_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDB87B61BFC3F84007CBA92 /* CaShapeLayer_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB87BA1BFC3F84007CBA92 /* AppDelegate.h */,
+				EFDB87BB1BFC3F84007CBA92 /* AppDelegate.m */,
+				EFDB87BD1BFC3F84007CBA92 /* ViewController.h */,
+				EFDB87BE1BFC3F84007CBA92 /* ViewController.m */,
+				EFDB87C01BFC3F84007CBA92 /* Main.storyboard */,
+				EFDB87C31BFC3F84007CBA92 /* Assets.xcassets */,
+				EFDB87C51BFC3F84007CBA92 /* LaunchScreen.storyboard */,
+				EFDB87C81BFC3F84007CBA92 /* Info.plist */,
+				EFDB87B71BFC3F84007CBA92 /* Supporting Files */,
+			);
+			path = CaShapeLayer_Demo;
+			sourceTree = "<group>";
+		};
+		EFDB87B71BFC3F84007CBA92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB87B81BFC3F84007CBA92 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFDB87D01BFC3F84007CBA92 /* CaShapeLayer_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB87D11BFC3F84007CBA92 /* CaShapeLayer_DemoTests.m */,
+				EFDB87D31BFC3F84007CBA92 /* Info.plist */,
+			);
+			path = CaShapeLayer_DemoTests;
+			sourceTree = "<group>";
+		};
+		EFDB87DB1BFC3F84007CBA92 /* CaShapeLayer_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB87DC1BFC3F84007CBA92 /* CaShapeLayer_DemoUITests.m */,
+				EFDB87DE1BFC3F84007CBA92 /* Info.plist */,
+			);
+			path = CaShapeLayer_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDB87B31BFC3F84007CBA92 /* CaShapeLayer_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDB87E11BFC3F84007CBA92 /* Build configuration list for PBXNativeTarget "CaShapeLayer_Demo" */;
+			buildPhases = (
+				EFDB87B01BFC3F84007CBA92 /* Sources */,
+				EFDB87B11BFC3F84007CBA92 /* Frameworks */,
+				EFDB87B21BFC3F84007CBA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaShapeLayer_Demo;
+			productName = CaShapeLayer_Demo;
+			productReference = EFDB87B41BFC3F84007CBA92 /* CaShapeLayer_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFDB87CC1BFC3F84007CBA92 /* CaShapeLayer_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDB87E41BFC3F84007CBA92 /* Build configuration list for PBXNativeTarget "CaShapeLayer_DemoTests" */;
+			buildPhases = (
+				EFDB87C91BFC3F84007CBA92 /* Sources */,
+				EFDB87CA1BFC3F84007CBA92 /* Frameworks */,
+				EFDB87CB1BFC3F84007CBA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDB87CF1BFC3F84007CBA92 /* PBXTargetDependency */,
+			);
+			name = CaShapeLayer_DemoTests;
+			productName = CaShapeLayer_DemoTests;
+			productReference = EFDB87CD1BFC3F84007CBA92 /* CaShapeLayer_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFDB87D71BFC3F84007CBA92 /* CaShapeLayer_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDB87E71BFC3F84007CBA92 /* Build configuration list for PBXNativeTarget "CaShapeLayer_DemoUITests" */;
+			buildPhases = (
+				EFDB87D41BFC3F84007CBA92 /* Sources */,
+				EFDB87D51BFC3F84007CBA92 /* Frameworks */,
+				EFDB87D61BFC3F84007CBA92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDB87DA1BFC3F84007CBA92 /* PBXTargetDependency */,
+			);
+			name = CaShapeLayer_DemoUITests;
+			productName = CaShapeLayer_DemoUITests;
+			productReference = EFDB87D81BFC3F84007CBA92 /* CaShapeLayer_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDB87AC1BFC3F84007CBA92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ylk;
+				TargetAttributes = {
+					EFDB87B31BFC3F84007CBA92 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EFDB87CC1BFC3F84007CBA92 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EFDB87B31BFC3F84007CBA92;
+					};
+					EFDB87D71BFC3F84007CBA92 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EFDB87B31BFC3F84007CBA92;
+					};
+				};
+			};
+			buildConfigurationList = EFDB87AF1BFC3F84007CBA92 /* Build configuration list for PBXProject "CaShapeLayer_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFDB87AB1BFC3F84007CBA92;
+			productRefGroup = EFDB87B51BFC3F84007CBA92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDB87B31BFC3F84007CBA92 /* CaShapeLayer_Demo */,
+				EFDB87CC1BFC3F84007CBA92 /* CaShapeLayer_DemoTests */,
+				EFDB87D71BFC3F84007CBA92 /* CaShapeLayer_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDB87B21BFC3F84007CBA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDB87C71BFC3F84007CBA92 /* LaunchScreen.storyboard in Resources */,
+				EFDB87C41BFC3F84007CBA92 /* Assets.xcassets in Resources */,
+				EFDB87C21BFC3F84007CBA92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDB87CB1BFC3F84007CBA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDB87D61BFC3F84007CBA92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDB87B01BFC3F84007CBA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDB87BF1BFC3F84007CBA92 /* ViewController.m in Sources */,
+				EFDB87BC1BFC3F84007CBA92 /* AppDelegate.m in Sources */,
+				EFDB87B91BFC3F84007CBA92 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDB87C91BFC3F84007CBA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDB87D21BFC3F84007CBA92 /* CaShapeLayer_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDB87D41BFC3F84007CBA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDB87DD1BFC3F84007CBA92 /* CaShapeLayer_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFDB87CF1BFC3F84007CBA92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDB87B31BFC3F84007CBA92 /* CaShapeLayer_Demo */;
+			targetProxy = EFDB87CE1BFC3F84007CBA92 /* PBXContainerItemProxy */;
+		};
+		EFDB87DA1BFC3F84007CBA92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDB87B31BFC3F84007CBA92 /* CaShapeLayer_Demo */;
+			targetProxy = EFDB87D91BFC3F84007CBA92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFDB87C01BFC3F84007CBA92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDB87C11BFC3F84007CBA92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFDB87C51BFC3F84007CBA92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDB87C61BFC3F84007CBA92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFDB87DF1BFC3F84007CBA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFDB87E01BFC3F84007CBA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDB87E21BFC3F84007CBA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaShapeLayer_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.CaShapeLayer-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFDB87E31BFC3F84007CBA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaShapeLayer_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.CaShapeLayer-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFDB87E51BFC3F84007CBA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaShapeLayer_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.CaShapeLayer-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaShapeLayer_Demo.app/CaShapeLayer_Demo";
+			};
+			name = Debug;
+		};
+		EFDB87E61BFC3F84007CBA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaShapeLayer_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.CaShapeLayer-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaShapeLayer_Demo.app/CaShapeLayer_Demo";
+			};
+			name = Release;
+		};
+		EFDB87E81BFC3F84007CBA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CaShapeLayer_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.CaShapeLayer-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CaShapeLayer_Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EFDB87E91BFC3F84007CBA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CaShapeLayer_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.medsci.www.CaShapeLayer-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CaShapeLayer_Demo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDB87AF1BFC3F84007CBA92 /* Build configuration list for PBXProject "CaShapeLayer_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDB87DF1BFC3F84007CBA92 /* Debug */,
+				EFDB87E01BFC3F84007CBA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDB87E11BFC3F84007CBA92 /* Build configuration list for PBXNativeTarget "CaShapeLayer_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDB87E21BFC3F84007CBA92 /* Debug */,
+				EFDB87E31BFC3F84007CBA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFDB87E41BFC3F84007CBA92 /* Build configuration list for PBXNativeTarget "CaShapeLayer_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDB87E51BFC3F84007CBA92 /* Debug */,
+				EFDB87E61BFC3F84007CBA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFDB87E71BFC3F84007CBA92 /* Build configuration list for PBXNativeTarget "CaShapeLayer_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDB87E81BFC3F84007CBA92 /* Debug */,
+				EFDB87E91BFC3F84007CBA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDB87AC1BFC3F84007CBA92 /* Project object */;
+}
