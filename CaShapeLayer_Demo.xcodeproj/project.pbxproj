@@ -15,6 +15,7 @@
 		EFDB87C71BFC3F84007CBA92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFDB87C51BFC3F84007CBA92 /* LaunchScreen.storyboard */; };
 		EFDB87D21BFC3F84007CBA92 /* CaShapeLayer_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB87D11BFC3F84007CBA92 /* CaShapeLayer_DemoTests.m */; };
 		EFDB87DD1BFC3F84007CBA92 /* CaShapeLayer_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB87DC1BFC3F84007CBA92 /* CaShapeLayer_DemoUITests.m */; };
+		EFDB87EC1BFC3FC1007CBA92 /* RotationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDB87EB1BFC3FC1007CBA92 /* RotationLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EFDB87D81BFC3F84007CBA92 /* CaShapeLayer_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaShapeLayer_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDB87DC1BFC3F84007CBA92 /* CaShapeLayer_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaShapeLayer_DemoUITests.m; sourceTree = "<group>"; };
 		EFDB87DE1BFC3F84007CBA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFDB87EA1BFC3FC1007CBA92 /* RotationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationLayer.h; sourceTree = "<group>"; };
+		EFDB87EB1BFC3FC1007CBA92 /* RotationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				EFDB87BB1BFC3F84007CBA92 /* AppDelegate.m */,
 				EFDB87BD1BFC3F84007CBA92 /* ViewController.h */,
 				EFDB87BE1BFC3F84007CBA92 /* ViewController.m */,
+				EFDB87EA1BFC3FC1007CBA92 /* RotationLayer.h */,
+				EFDB87EB1BFC3FC1007CBA92 /* RotationLayer.m */,
 				EFDB87C01BFC3F84007CBA92 /* Main.storyboard */,
 				EFDB87C31BFC3F84007CBA92 /* Assets.xcassets */,
 				EFDB87C51BFC3F84007CBA92 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				EFDB87BF1BFC3F84007CBA92 /* ViewController.m in Sources */,
 				EFDB87BC1BFC3F84007CBA92 /* AppDelegate.m in Sources */,
 				EFDB87B91BFC3F84007CBA92 /* main.m in Sources */,
+				EFDB87EC1BFC3FC1007CBA92 /* RotationLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
